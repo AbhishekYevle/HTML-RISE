@@ -28,19 +28,16 @@ body {
 
 .item1 {
     margin-left: 870px;
-    /* position: sticky; */
 }
 
 .item2 {
     margin-left: 10px;
-    /* position: sticky; */
 }
 
 .btnnavbar {
     color: white;
     border-style: none;
     border-radius: 10px;
-    /* position: sticky; */
     height: 30px;
     width: 100px;
     margin-left: 10px;
@@ -82,8 +79,8 @@ body {
     font-weight: 300;
 }
 
-.box:hover {
-    background-color: darkcyan;
+.box2 {
+    background-color: goldenrod;
     margin-top: 0px;
     height: 350px;
     width: 300px;
@@ -100,9 +97,9 @@ body {
 }
   
 .box p {
-    font-size: 18px;
-    color: red;
-    font-weight: 300;
+  font-size: 17px;
+  margin-top: 0px;
+  margin-bottom: 2px;
   }
   
   .box ul {
@@ -110,10 +107,10 @@ body {
     margin-top: 20px;
     padding: 0;
   }
-  
-  /* .box ul li {
-    
-  } */
+
+  .box ul p{
+    color: white;
+  }
   
   .box button {
     margin-top: 0px;
@@ -121,50 +118,73 @@ body {
     background-color: rgb(172, 15, 28);
     border: none;
     cursor: pointer;
+    border-radius: 5px;
   }
   
   .box button:hover {
     background-color: #ffc107;
   }
-  
   .recommended {
-    border-color: #FFD700;
+    padding-top: 14px;
+    background-color: white;
+    border-radius: 25px;
+    height: 33px;
+    color: goldenrod;
   }
-
-
-
-.card {
-    background-color: rgb(218, 213, 213);
+  
+  .reasons-section {
     text-align: center;
     margin-top: 50px;
-    width: 250px;
-    float: left;
-}
+    padding-top: 15px;
+    background-image: linear-gradient(blueviolet, pink);
+  }
 
-.left-card {
-    height: 300px;
-    margin-left: 200px;
-    padding: 10px;
-}
+  .circles-container {
+    display: flex;
+    height: 250px;
+  }
+  
+  .circles-container div {
+    margin-left: 150px;
+  }
+  
+  .circle {
+    top: 20px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    position: relative;
+  }
 
-.center-card {
-    margin-top: 20px;
-    margin-left: 50px;
-    float: left;
-    height: 350px;
-}
+  .circle1 {
+    margin-left: 15px;
+  }
+  
+  .circle2 {
+    margin-left: 35px;
+  }
+  
+  .circle-text {
+    text-align: center;
+  }
+  
+  .footer {
+    margin-top: 50px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    align-items: center;
+  }
 
-.right-card {
-    height: 300px;
-    margin-left: 50px;
-}
-.cardtitle {
-    padding-top: 40px;
-}
+  .footer a {
+    padding-left: 15px;
+    text-decoration: none;
+    text-underline-offset: 3px;
+  }
 
-.money {
-    color: red;
-    font-size: 150;
-    font-weight: bold;
-}
-
+  .footer a:hover {
+    color:white;
+    text-decoration: underline;
+  }

@@ -3,215 +3,10 @@
       <head>
           <meta charset="UTF-8">
           <meta name="viewport" content="width=device-width, initial-scale=1.0">
-          <!-- <link rel="stylesheet" type="text/css" href="demowebsite.css" /> -->
+          <link rel="stylesheet" type="text/css" href="demowebsite.css" />
           <title>Demo Website</title>
-          <style>
-              body {
-          margin: 0px;
-          font-family: sans-serif;
-      }
-      .navbar {
-          margin: 0px;
-          padding: 0px;
-          background-color: goldenrod;
-          height: 40px;
-          position: sticky;
-          top: 0px;
-      }
-      .logo {
-          font-weight: bold;
-          color: black;
-          float: left;
-          margin: 0px;
-          padding: 10px;
-          position: sticky;
-          text-decoration: none;
-          text-underline-offset: 3px;
-      }
-
-      .logo:hover {
-          color: white;
-          text-decoration: underline;
-      }
-
-      .item1 {
-          margin-left: 870px;
-          /* position: sticky; */
-      }
-
-      .item2 {
-          margin-left: 10px;
-          /* position: sticky; */
-      }
-
-      .btnnavbar {
-          color: white;
-          border-style: none;
-          border-radius: 10px;
-          /* position: sticky; */
-          height: 30px;
-          width: 100px;
-          margin-left: 10px;
-          margin-top: 5px;
-          background-color: rgb(171, 3, 56);
-          font-weight: bold;
-      }
-      .btnnavbar:hover {
-          background-color: blueviolet;
-      }
-
-      .heroimage {
-          height: 500px;
-          width:1263px;
-      }
-
-      .planheading {
-          color: goldenrod;
-          text-align: center;
-          margin-top: 40px;
-      }
-        
-      .box-container {
-          display: flex;
-          flex-wrap: wrap; 
-          justify-content: space-around;
-          margin-top: 30px;
-      }
-        
-      .box {
-          background-color: lightgray;
-          margin-top: 30px;
-          height: 300px;
-          width: 300px;
-          margin-bottom: 40px; 
-          padding: 20px;
-          text-align: center;
-          font-family: sans-serif;
-          font-weight: 300;
-      }
-
-      .box2 {
-          background-color: goldenrod;
-          margin-top: 0px;
-          height: 350px;
-          width: 300px;
-          margin-bottom: 30px; 
-          padding: 20px;
-          text-align: center;
-          font-family: sans-serif;
-          font-weight: 300;
-          color: white;
-      }
-        
-      .box h3 {
-          font-weight: bold;
-      }
-        
-      .box p {
-        font-size: 17px;
-        margin-top: 0px;
-        margin-bottom: 2px;
-        }
-        
-        .box ul {
-          list-style: none;
-          margin-top: 20px;
-          padding: 0;
-        }
-
-        .box ul p{
-          color: white;
-        }
-        
-        .box button {
-          margin-top: 0px;
-          padding: 10px 20px;
-          background-color: rgb(172, 15, 28);
-          border: none;
-          cursor: pointer;
-          border-radius: 5px;
-        }
-        
-        .box button:hover {
-          background-color: #ffc107;
-        }
-        .recommended {
-          padding-top: 14px;
-          background-color: white;
-          border-radius: 25px;
-          height: 33px;
-          color: goldenrod;
-        }
-        
-        .reasons-section {
-          text-align: center;
-          margin-top: 50px;
-          padding-top: 15px;
-          background-image: linear-gradient(blueviolet, pink);
-          /* background-color: #3ed850; */
-        }
-
-        .reasons-section {
-          
-        }
-
-        .circles-container {
-          display: flex;
-          height: 250px;
-          /* flex-wrap: wrap;  */
-          /* justify-content: space-around; */
-          /* margin-top: 10px; */
-          /* margin-bottom: 20px; */
-        }
-        
-        .circles-container div {
-          margin-left: 150px;
-        }
-        
-        .circle {
-          top: 20px;
-          width: 150px;
-          height: 150px;
-          border-radius: 50%;
-          margin-bottom: 10px;
-          position: relative;
-        }
-
-        .circle1 {
-          margin-left: 15px;
-        }
-        
-        .circle2 {
-          margin-left: 35px;
-        }
-        
-        .circle-text {
-          text-align: center;
-        }
-        
-        /* Footer styles */
-        .footer {
-          margin-top: 50px;
-          background-color: #333;
-          color: white;
-          text-align: center;
-          padding: 40px;
-          align-items: center;
-        }
-
-        .footer a {
-          padding-left: 15px;
-          text-decoration: none;
-          text-underline-offset: 3px;
-        }
-
-        .footer a:hover {
-          color:white;
-          text-decoration: underline;
-        }
-          </style>
-
       </head>
+      
       <body>
           
           <div class="navbar">
@@ -224,47 +19,46 @@
               <img src="/Assets/img/poster.jpg" class="heroimage">
           </div>
           <div>
-              <h2 class="planheading">Choose Your Plan</h2>
-
-              <div class="box-container">
-                  <div class="box">
-                    <h3>FREE</h3>
-                    <p>$0/month</p>
-                    <ul>
-                      <h3>For Hobby Protect or small teams.</h3>
-                      <p>1 workplace</p>
-                      <p>Unlimited traffic</p>
-                      <p>10Gb Storage</p>
-                      <p>Basic support</p>
-                    </ul>
-                    <button>Choose Plan</button>
-                  </div>
-                  <div class="box2 box">
-                    <h3 class="recommended">RECOMMENDED</h3>
-                    <h3>PLUS</h3>
-                    <p style="margin-top: 9px;">$29/month</p>
-                    <ul>
-                      <h3>For ambitious projects.</h3>
-                      <p>5 workplace</p>
-                      <p>Unlimited traffic</p>
-                      <p>100Gb Storage</p>
-                      <p>Plus support</p>
-                    </ul>
-                    <button>Choose Plan</button>
-                  </div>
-                  <div class="box">
-                    <h3>PREMIUM</h3>
-                    <p>$99/month</p>
-                    <ul>
-                      <h3>Your Enterprise Solution</h3>
-                      <p>10 Workspaces</p>
-                      <p>Unlimited Traffic</p>
-                      <p>Unlimited Storage</p>
-                      <p>Priority Support</p>
-                    </ul>
-                    <button>Choose Plan</button>  
-                  </div>
+            <h2 class="planheading">Choose Your Plan</h2>
+            <div class="box-container">
+              <div class="box">
+                <h3>FREE</h3>
+                <p>$0/month</p>
+                <ul>
+                  <h3>For Hobby Protect or small teams.</h3>
+                  <p>1 workplace</p>
+                  <p>Unlimited traffic</p>
+                  <p>10Gb Storage</p>
+                  <p>Basic support</p>
+                </ul>
+                <button>Choose Plan</button>
               </div>
+              <div class="box2 box">
+                <h3 class="recommended">RECOMMENDED</h3>
+                <h3>PLUS</h3>
+                <p style="margin-top: 9px;">$29/month</p>
+                <ul>
+                  <h3>For ambitious projects.</h3>
+                  <p>5 workplace</p>
+                  <p>Unlimited traffic</p>
+                  <p>100Gb Storage</p>
+                  <p>Plus support</p>
+                </ul>
+                <button>Choose Plan</button>
+              </div>
+              <div class="box">
+                <h3>PREMIUM</h3>
+                <p>$99/month</p>
+                <ul>
+                  <h3>Your Enterprise Solution</h3>
+                  <p>10 Workspaces</p>
+                  <p>Unlimited Traffic</p>
+                  <p>Unlimited Storage</p>
+                  <p>Priority Support</p>
+                </ul>
+                <button>Choose Plan</button>  
+              </div>
+            </div>
           </div>
           <div class="reasons-section">
               <h2>Many Good Reasons to Stick Around</h2>
@@ -274,11 +68,10 @@
                 <div><img class="circle circle2" src="Assets/img/flower3.jpg" /><h4 class="circle-text circle2">Lightning Fast CDN</h4></div>
               </div>
             </div>
-            <!-- class="circle" style="background-image: url(/img/flower1.jpg);" -->
 
-            <footer class="footer">       
+            <div class="footer">       
                 <a href="#support.html">Support</a>
                 <a href="#terms.html">Terms of Use</a>
-            </footer>
+            </div>
       </body>
       </html>
