@@ -1,0 +1,170 @@
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+.navbar {
+    margin: 0px;
+    padding: 0px;
+    background-color: goldenrod;
+    height: 40px;
+    position: sticky;
+    top: 0px;
+}
+.logo {
+    font-weight: bold;
+    color: black;
+    float: left;
+    margin: 0px;
+    padding: 10px;
+    position: sticky;
+    text-decoration: none;
+    text-underline-offset: 3px;
+}
+
+.logo:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.item1 {
+    margin-left: 870px;
+    /* position: sticky; */
+}
+
+.item2 {
+    margin-left: 10px;
+    /* position: sticky; */
+}
+
+.btnnavbar {
+    color: white;
+    border-style: none;
+    border-radius: 10px;
+    /* position: sticky; */
+    height: 30px;
+    width: 100px;
+    margin-left: 10px;
+    margin-top: 5px;
+    background-color: rgb(171, 3, 56);
+    font-weight: bold;
+}
+.btnnavbar:hover {
+    background-color: blueviolet;
+}
+
+.heroimage {
+    height: 500px;
+    width:1263px;
+}
+
+.planheading {
+    color: goldenrod;
+    text-align: center;
+    margin-top: 40px;
+}
+  
+.box-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    margin-top: 30px;
+}
+  
+.box {
+    background-color: lightgray;
+    margin-top: 30px;
+    height: 300px;
+    width: 300px;
+    margin-bottom: 40px; 
+    padding: 20px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+.box:hover {
+    background-color: darkcyan;
+    margin-top: 0px;
+    height: 350px;
+    width: 300px;
+    margin-bottom: 30px; 
+    padding: 20px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 300;
+    color: white;
+}
+  
+.box h3 {
+    font-weight: bold;
+}
+  
+.box p {
+    font-size: 18px;
+    color: red;
+    font-weight: 300;
+  }
+  
+  .box ul {
+    list-style: none;
+    margin-top: 20px;
+    padding: 0;
+  }
+  
+  /* .box ul li {
+    
+  } */
+  
+  .box button {
+    margin-top: 0px;
+    padding: 10px 20px;
+    background-color: rgb(172, 15, 28);
+    border: none;
+    cursor: pointer;
+  }
+  
+  .box button:hover {
+    background-color: #ffc107;
+  }
+  
+  .recommended {
+    border-color: #FFD700;
+  }
+
+
+
+.card {
+    background-color: rgb(218, 213, 213);
+    text-align: center;
+    margin-top: 50px;
+    width: 250px;
+    float: left;
+}
+
+.left-card {
+    height: 300px;
+    margin-left: 200px;
+    padding: 10px;
+}
+
+.center-card {
+    margin-top: 20px;
+    margin-left: 50px;
+    float: left;
+    height: 350px;
+}
+
+.right-card {
+    height: 300px;
+    margin-left: 50px;
+}
+.cardtitle {
+    padding-top: 40px;
+}
+
+.money {
+    color: red;
+    font-size: 150;
+    font-weight: bold;
+}
+
